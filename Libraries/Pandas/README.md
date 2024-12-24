@@ -58,9 +58,18 @@ df.drop(columns=['col1',col2',...,'coln'])
 df.concat([df1,df2])
 
 2. <b>How to merge dataframes ?</b><br>
-pd.merge(df1,df2, on='column')
+pd.merge(df1,df2, on='column', how='left'/'right'/'inner'/'outer')
+
+3. <b>How to add apply function ?</b><br>
+df['column'].apply(lambda x: function(x))
+
+4. <b>How to apply groupby and aggregation functions ?</b><br>
+df.groupby('column').agg({'column':'sum'})
+
+5. <b>How to apply pivot table ?</b><br>
+df.pivot_table(index='column1', values='column2', aggfunc='mean')
 ------------------------------------------------------------------------
-- ##### DATA VISUALIZATION AND INTEGRATION
+- ##### DATA VISUALIZATION AND INTEGRATION 
 ------------------------------------------------------------------------
 - ##### INDEXING AND SELECTION
 1. <b>How to select column</b><br>
@@ -89,5 +98,26 @@ df[df['col']>value]
 df[(df['col1'] > 4) & (df['col2'] =='abc')]
 
 ------------------------------------------------------------------------
-- ##### FORMATTING DATA AND ITS CONVERSIONS
+- ##### HANDLING DUPLICATES
+1. <b> How to find duplicates ?</b><br>
+df.duplicated()
+
+2. <b> How to remove duplicates ?</b><br>
+df.drop_duplicates()
+------------------------------------------------------------------------
+- ##### STASTISTICAL ANALYSIS OF DATA
+1. <b> How to apply correlation of matrix ?</b><br>
+df.corr()
+
+2. <b> How to apply covariance of matrix ?</b><br>
+df.cov()
+
+3. <b> How to get unique value with its count ?</b><br>
+df['column'].value_counts()
+
+4. <b> How to get unique value without its count ?</b><br>
+df['column'].unique()
+
+5. <b> How to get number of unique values in the column ></b><br>
+df['column'].nunique()
 ------------------------------------------------------------------------
