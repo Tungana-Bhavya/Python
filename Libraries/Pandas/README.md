@@ -121,3 +121,20 @@ df['column'].unique()
 5. <b> How to get number of unique values in the column ></b><br>
 df['column'].nunique()
 ------------------------------------------------------------------------
+- ##### DATA VISUALIZATION
+1. <b>How to get histogram </b><br>
+df['column'].hist()
+
+2. <b>How to get boxplot ?</b><br>
+df.boxplot(column=['column1','column2'])
+
+3. <b>How to get scatter plot ?</b><br>
+df.plot.scatter(x = 'col1', y='col2')
+
+4. <b>How to get lineplot ?</b><br>
+df.plot.line()
+
+5. <b>How to get bar chart ?</b><br>
+df['column'].value_counts().plot.bar()
+
+
