@@ -136,5 +136,14 @@ df.plot.line()
 
 5. <b>How to get bar chart ?</b><br>
 df['column'].value_counts().plot.bar()
+------------------------------------------------------------------------
+- ##### EXPORTING FILES
+1. <b>How to write data from dataframe into csv file ? </b><br>
+df.to_csv('filename.csv')
 
+2. <b>How to write data from dataframe into excel file ?</b><br>
+df.to_excel('filename.xlsx')
+
+3. <b>How to write data from dataframe into sql database </b><br>
+df.to_sql('table_name', connection)
 
