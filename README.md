@@ -4,8 +4,9 @@
 #### Matplotlib
 #### Seaborn
 
+## Problems
 The below are my solutions to the leetcode problems using pandas
-## Leetcode 
+#### Leetcode 
 |ID| QUESTION                | ANSWER               |
 |--|------------------------ |---------------------:|
 |1|[Create a Dataframe From List](https://leetcode.com/problems/create-a-dataframe-from-list/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution]()
