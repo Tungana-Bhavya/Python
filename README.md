@@ -9,9 +9,9 @@ The below are my solutions to the leetcode problems using pandas
 #### Leetcode 
 |ID| QUESTION                | ANSWER               |
 |--|------------------------ |---------------------:|
-|1|[Create a Dataframe From List](https://leetcode.com/problems/create-a-dataframe-from-list/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution]()
-|2|[Get The Size Of Dataframe](https://leetcode.com/problems/get-the-size-of-a-dataframe/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution]()
-|3|[Display The First Three Rows](https://leetcode.com/problems/display-the-first-three-rows/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution]()
+|1|[Create a Dataframe From List](https://leetcode.com/problems/create-a-dataframe-from-list/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution](https://github.com/Tungana-Bhavya/Python/blob/main/Problems/Leetcode/CREATE_DATAFRAME.py)
+|2|[Get The Size Of Dataframe](https://leetcode.com/problems/get-the-size-of-a-dataframe/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution](https://github.com/Tungana-Bhavya/Python/blob/main/Problems/Leetcode/GET_SIZE_OF_DATAFRAME.py)
+|3|[Display The First Three Rows](https://leetcode.com/problems/display-the-first-three-rows/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution](https://github.com/Tungana-Bhavya/Python/blob/main/Problems/Leetcode/DISPLAY_FIRST_THREE_ROWS.py)
 |4|[Select Data](https://leetcode.com/problems/select-data/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution]()
 |5|[Create a New Column](https://leetcode.com/problems/create-a-new-column/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution]()
 |6|[Drop Duplicate Rows](https://leetcode.com/problems/drop-duplicate-rows/description/?envType=study-plan-v2&envId=introduction-to-pandas&lang=pythondata)|[Solution]()
