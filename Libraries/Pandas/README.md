@@ -68,8 +68,13 @@ df.groupby('column').agg({'column':'sum'})
 
 5. <b>How to apply pivot table ?</b><br>
 df.pivot_table(index='column1', values='column2', aggfunc='mean')
-------------------------------------------------------------------------
-- ##### DATA VISUALIZATION AND INTEGRATION 
+
+6. <b>How to get column in descending order ?</b><br>
+df.sort_values(by ='column', ascending = False)
+
+7.<b>How to get column in ascending order ? </b></br>
+df.sort_values(by = 'column', ascending = True)
+
 ------------------------------------------------------------------------
 - ##### INDEXING AND SELECTION
 1. <b>How to select column</b><br>
