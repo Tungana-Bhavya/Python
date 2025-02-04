@@ -24,7 +24,7 @@ np.median(data)
 3. <b>How to calculate standard deviation of data </b><br>
 np.std(data)
 
-4.<b>How to calcuate variance of data </b><br>
+4.<b> How to calcuate variance of data </b><br>
 pd.var(data)
 
 ------------------------------------
@@ -50,8 +50,8 @@ np.log(data)
 
 2. <b>How to apply expontial of data </b><br>
 np.exp(data)
-
-3.<b>How to apply square root of data</b><br>
+ 
+3. <b>How to apply square root of data</b><br>
 np.sqrt(data)
 
    
