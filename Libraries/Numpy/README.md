@@ -61,10 +61,10 @@ np.corrcoef(data1, data2)
 ------------------------------------
 
 - #### Array Indexing
-1. <b>How to access a specific element ?
+1. <b>How to access a specific element ?</b><br>
 data[index
 
-2. <b>How to apply a slice operaton?
+2. <b>How to apply a slice operaton?</b><br>
 data[start:stop:step]
 
 
