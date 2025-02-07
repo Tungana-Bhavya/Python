@@ -53,6 +53,20 @@ np.exp(data)
  
 3. <b>How to apply square root of data</b><br>
 np.sqrt(data)
+------------------------------------
+
+- #### Data Correlation
+1. <b>How to  calucate correlation coefficient of data ?</B<br>
+np.corrcoef(data1, data2)
+------------------------------------
+
+- #### Array Indexing
+1. <b>How to access a specific element ?
+data[index
+
+2. <b>How to apply a slice operaton?
+data[start:stop:step]
+
 
    
 
