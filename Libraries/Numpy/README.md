@@ -56,13 +56,13 @@ np.sqrt(data)
 ------------------------------------
 
 - #### Data Correlation
-1. <b>How to  calucate correlation coefficient of data ?</B<br>
+1. <b>How to  calucate correlation coefficient of data ?</b><br>
 np.corrcoef(data1, data2)
 ------------------------------------
 
 - #### Array Indexing
 1. <b>How to access a specific element ?</b><br>
-data[index
+data[index]
 
 2. <b>How to apply a slice operaton?</b><br>
 data[start:stop:step]
