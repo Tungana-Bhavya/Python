@@ -1,6 +1,6 @@
 ## Libraries
 #### [Pandas](https://github.com/Tungana-Bhavya/Python/tree/main/Libraries/Pandas)
-#### Numpy
+#### [Numpy](https://github.com/Tungana-Bhavya/Python/tree/main/Libraries/Numpy)
 #### Matplotlib
 #### Seaborn
 
