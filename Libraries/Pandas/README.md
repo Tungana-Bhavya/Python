@@ -151,4 +151,11 @@ df.to_excel('filename.xlsx')
 
 3. <b>How to write data from dataframe into sql database </b><br>
 df.to_sql('table_name', connection)
+------------------------------------------------------------------------
+- ##### Memory Optimization
+1. <b>How to reduce memory usage ?</b><br>
+df.memory_usage(deep=True)
+
+2. <b>How to change data types to save memory ?</b><br>
+df['column'].astype('category')
 
