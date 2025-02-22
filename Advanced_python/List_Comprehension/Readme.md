@@ -89,4 +89,95 @@ print(single_lst)<br>
 #### - Output:
 [1, 2, 3, 'python', 6, 'language', 8]
 
+-----------------------------------
+<b>11. Write a program to create a new list containing positive integers from the original list</b><br>
+#### - Input:
+num_list = [-30,-20,-10,0,5,10,15,20]<br>
+positive_numbers = [num for num in num_list if num > 0]<br>
+print(positive_numbers)<br>
+#### - Output:
+[5, 10, 15, 20]
 
+-----------------------------------
+<b>12. Write a program to find the common elements from the two lists.</b><br>
+#### - Input:
+a = [1,2,3,4,5]<br>
+b = [4,5,6,7,8]<br>
+common_elements = [num for num in a if num in b]<br>
+print(common_elements)<br>
+#### - Output:
+[4, 5]
+
+-----------------------------------
+<b>13. Write a program to find the list of all the numbers from 1 to 100 that are divisible by both 3 and 5.</b><br>
+#### - Input:
+divisible_by_3_and_5 = [x for x in range(1, 101) if x % 3 == 0 and x % 5 == 0]<br>
+print(divisible_by_3_and_5)<br>
+#### - Output:
+[15, 30, 45, 60, 75, 90]
+
+-----------------------------------
+<b>14. Write a program to convert the given string into upper case</b><br>
+#### - Input:
+str = [‘data engineer’,’data scientist’,’data analyst’,’machine learning engineer’, ‘dba’, ‘cloud engineer’, ‘devops engineer’, ‘cyberark analyst’]<br>
+data_jobs = [x.upper() for x in str if x.startswith(‘d’)]<br>
+print(data_jobs)<br>
+#### - Output:
+['DATA ENGINEER', 'DATA SCIENTIST', 'DATA ANALYST', 'DBA', 'DEVOPS ENGINEER']
+
+-----------------------------------
+<b>15. Write a program to convert the given string into upper case and starts with d and ends with t</b><br>
+#### - Input:
+str = [‘data engineer’,’data scientist’,’data analyst’,’machine learning engineer’, ‘dba’, ‘cloud engineer’, ‘devops engineer’, ‘cyberark analyst’]<br>
+data_jobs = [x.upper() for x in str if x.startswith("d") and x.endswith("t")]<br>
+print(data_jobs)<br>
+#### - Output:
+['DATA SCIENTIST', 'DATA ANALYST']
+
+-----------------------------------
+<b>16. Write a program to create a list of the first letters of each word in a given list of words.</b><br>
+#### - Input:
+words = ['apple', 'banana', 'cherry', 'date']<br>
+first_letters = [word[0] for word in words]<br>
+print(first_letters)<br>
+#### - Output:
+['a', 'b', 'c', 'd']
+
+-----------------------------------
+<b>17. From the Given list of tuples representing (name, age), write a list comprehension to create a list of names where age is not None.</b><br>
+#### - Input:
+people = [('Alice', 17), ('Bob', None), ('Charlie', 20), ('David', None)]<br>
+names_with_age = [name for name, age in people if age is not None]<br>
+print(names_with_age)<br>
+#### - Output:
+['Alice', 'Charlie']
+
+-----------------------------------
+<b>18. Write a list comprehension to create a list of the lengths of each word in a given sentence.</b><br>
+#### - Input:
+string = "Data Engineering"<br>
+print([len(word) for word in string.split()])<br>
+#### - Output:
+[4, 11]
+
+-----------------------------------
+<b>19. Converting user input strings to uppercase.</b><br>
+#### - Input:
+user_input = input("enter a list of strings separated by spaces:")<br>
+strings=[s.upper() for s in user_input.split()]<br>
+print(strings)<br>
+#### - Output:
+enter a list of strings separated by spaces:python for data engineering<br>
+['PYTHON', 'FOR', 'DATA', 'ENGINEERING']
+
+-----------------------------------
+<b>19. Converting user input strings to title case(first letter uppercase).</b><br>
+#### - Input:
+user_input = input("enter a list of strings separated by spaces:")<br>
+strings=[s.upper() for s in user_input.split()]<br>
+print(strings)<br>
+#### - Output:
+enter a list of strings separated by spaces:welcome to Python prgramming<br>
+['Python', 'For', 'Data', 'Engineering']
+
+-----------------------------------
