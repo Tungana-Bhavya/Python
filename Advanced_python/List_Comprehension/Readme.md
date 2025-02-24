@@ -1,5 +1,11 @@
-### List Comprehension
+#### List Comprehension
+- List Comprehension is a powerful feature in python that allows us to create new list from an existing list or iterable in a shorter syntax.<br>
+- An iterable can be a list, tuple, set, strings and so on.
 
+#### Syntax:<br>
+newlist = [expression for item in iterable (if condition optional)]<br>
+
+Here are various practice problems demonstrated using list comprehension.<br>
 
 <b>1. Write a list comprehension to generate a list of numbers from 1 to 10 using range function. </b><br>
 #### - Input:
