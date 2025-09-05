@@ -1,8 +1,7 @@
 ## Libraries
 #### [Pandas](https://github.com/Tungana-Bhavya/Python/tree/main/Libraries/Pandas)
+
 #### [Numpy](https://github.com/Tungana-Bhavya/Python/tree/main/Libraries/Numpy)
-#### Matplotlib
-#### Seaborn
 
 ## Problems
 The below are my solutions to the leetcode problems using pandas
