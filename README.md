@@ -1,7 +1,7 @@
 ## Libraries
-#### [Pandas](https://github.com/Tungana-Bhavya/Python/tree/main/Libraries/Pandas)
+#### [Pandas Cheat Sheet](https://github.com/Tungana-Bhavya/Python/tree/main/Libraries/Pandas)
 
-#### [Numpy](https://github.com/Tungana-Bhavya/Python/tree/main/Libraries/Numpy)
+#### [Numpy Cheat Sheet](https://github.com/Tungana-Bhavya/Python/tree/main/Libraries/Numpy)
 
 ## Problems
 The below are my solutions to the leetcode problems using pandas
